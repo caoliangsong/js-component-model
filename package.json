@@ -2,7 +2,7 @@
   "name": "js-component-model",
   "version": "1.0.0",
   "description": "a common js component model",
-  "main": "index.js",
+  "main": "./lib/app.js",
   "scripts": {
     "dev": "webpack-dev-server --quiet",
     "build": "webpack --env.production"
