@@ -4,7 +4,7 @@
   "description": "a common js component model",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --quiet & http-server -c-1 -p 8081",
+    "dev": "webpack-dev-server --quiet & http-server -c-1 -p 8081",
     "build": "webpack --env.production"
   },
   "keywords": [],
