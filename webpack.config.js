@@ -58,7 +58,10 @@ module.exports = function(env = {}){
         hot: true,
         inline: true,
         compress: true,
-        port: 9005
+        port: 9005,
+        proxy: {
+            '/upload': 'http://172.17.18.132:8080/Upload'
+        }
     }
   };
 }
